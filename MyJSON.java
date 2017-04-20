@@ -17,17 +17,11 @@ package com.google.codeu.codingchallenge;
 import java.util.Collection;
 import java.util.HashSet;
 
-//Before you read this,
-//I wanted to say I am sorry that i was not able to complete the code
-//I wanted to try to go through my thought process on here becuase i was unsure of how to code what exactly you were asking 
-//I am grateful for the opporunity to still apply even though I might not be ready yet, hopefully you can see my thought process of how to go about this.
-//I want to Thank you again for allowing me to apply and I wish all other applications well!
 
-//Best,
-// Hayley Christianson
+//JSON has the backbone to have these functions that changes between classes (doesnt matter how it connects, but makes connection (example) )
 final class MyJSON implements JSON {
   
-  String[] parr;
+ // String[] parr;
   //Do you have to create a stack of these objects? Are you able to declare variables here?
   
   
@@ -57,10 +51,10 @@ final class MyJSON implements JSON {
     
     // TODO: implement this
     // use the Json value and store the string into the obj
-    parr = name.split("[.]");
-    for( int i = 0; i < parr.length(); i++ ){
+  //  parr = name.split("[.]");
+  //  for( int i = 0; i < parr.length(); i++ ){
       //System.out.println(parr[i]); tests to see if the string was inputted correctly
-    }
+  //  }
     //maybe a way to do this?
      // super(name, value);
     System.out.println("Check for Setting Object");
